@@ -1,0 +1,8 @@
+<h1>doses</h1>
+<h2><%= @dose.description %></h2>
+
+<%= link_to "Index", cocktails_path %>
+<%= link_to 'Add a new dose', new_cocktail_dosed_path(@cocktail) %>
+<p><%= link_to 'Delete', dosed_path(dose) method: :Delete%></p>
+
+
