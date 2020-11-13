@@ -18,9 +18,6 @@ ingredients['drinks'].each do |ingredient|
   Ingredient.create(name: ingredient['strIngredient1'])
 end
 
-
-
-
-# 30. times do
-#   Ingredient.create(name: Faker::Food.fruits)
-# end
+file = URI.open('https://giantbomb1.cbsistatic.com/uploads/original/9/99864/2419866-nes_console_set.png')
+cocktail = Cocktail.new(name: 'NES', body: "A great console")
+cocktail.photo.attach(io: file, filename: 'nes.png', content_type: 'image/png')

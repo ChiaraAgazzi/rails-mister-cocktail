@@ -2,26 +2,6 @@
 @import "alert";
 @import "avatar";
 @import "navbar";
-
-#ciao {
-  font-family: 'Monoton', cursive;
-  justify-content: center
-}
-
-.header {
-  margin-left: auto;
-  margin-right: auto;
-  width: 8em;
-  color: -webkit-link;
-  cursor: pointer;
-}
-
-.card {
-  padding: .75rem;
-  border: 1px solid #CCC;
-  background: #FFF;
-  align-self: center;
-  font-family: 'Monoton', cursive;
-  color: rgb(179, 63, 98);
-}
-
+@import "cocktails";
+@import "buttons"
+@import "cards"
